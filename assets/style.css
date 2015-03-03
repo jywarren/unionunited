@@ -86,10 +86,10 @@ ol li {
 }
 
 .hero img.visible-xs {
-  width:80%;
+  width:90%;
 }
 .hero img.hidden-xs {
-  width:40%;
+  width:60%;
 }
 
 .carousel {
