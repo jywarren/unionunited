@@ -73,10 +73,15 @@ h4 {
   font-size:2em;
 }
 
+.center {
+  text-align:center;
+}
+
 ol {
   font-size:3em;
   padding:40px 30%;
 }
+
 ol li {
   padding:0.2em;
 }
@@ -95,9 +100,15 @@ ol li {
 .carousel {
   text-align:center;
 }
+
 .carousel .item {
   padding:20px;
 }
+
+.carousel p {
+  color:#889;
+}
+
 .carousel .img-circle {
   width:80%;
   margin-bottom:20px;
