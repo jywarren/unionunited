@@ -1,3 +1,8 @@
+/* 
+ * Fanwood is an open source font available at 
+ * https://www.theleagueofmoveabletype.com/fanwood
+ */
+
 @font-face {
     font-family: 'Fanwood';
     src: url('../bower_components/fanwood/webfonts/fanwood-webfont.eot');
@@ -28,9 +33,10 @@ body {
 }
 
 hr {
-  padding:4px;
+  padding:2px;
   border-top:3px solid #445;
   border-bottom:1px solid #445;
+  margin:40px 0;
 }
 
 p {
@@ -38,8 +44,11 @@ p {
 }
 
 h1, h2, h3, h4 {
-  text-align:center;
   font-family:'Fanwood', serif;
+}
+
+#content h1, #content h2, #content h3, #content h4 {
+  text-align:center;
 }
 
 h1 {
@@ -56,6 +65,10 @@ h2 {
   margin:30px 0;
 }
 
+h3 {
+  font-size:3em;
+}
+
 h4 {
   font-size:2em;
 }
@@ -68,6 +81,17 @@ ol li {
   padding:0.2em;
 }
 
+.hero img {
+  margin:20px auto 50px;
+}
+
+.hero img.visible-xs {
+  width:80%;
+}
+.hero img.hidden-xs {
+  width:40%;
+}
+
 .carousel {
   text-align:center;
 }
@@ -77,4 +101,8 @@ ol li {
 .carousel .img-circle {
   width:80%;
   margin-bottom:20px;
+}
+
+footer {
+  text-align:center;
 }
