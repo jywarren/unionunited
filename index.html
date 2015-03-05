@@ -18,20 +18,58 @@
 
   <body>
 
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Union United</a>
+        </div>
+  
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#facts">5 Facts</a></li>
+            <li><a href="#todo">5 To-Dos</a></li>
+            <li><a href="#who">Who Is Union Square</a></li>
+            <!--
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            -->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
     <div id="content">
       <div class="container-fluid hero">
         <h1>
           <img class="visible-xs" src="assets/images/drawing-wide-223.png" alt="UNION UNITED" />
           <img class="hidden-xs" src="assets/images/drawing-wide-223.png" alt="UNION UNITED" />
         </h1>
-        <h3>DEVELOPMENT WITHOUT DISPLACEMENT</h3>
+        <h3>development without displacement</h3>
         <p class="center">in Union Square, Somerville, MA</p>
 
       </div>
  
       <hr />
  
-      <div class="container-fluid">
+      <div class="container-fluid section" id="facts">
         <h1>5<small> THINGS</small></h1>
         <h2>YOU SHOULD KNOW ABOUT <br />UNION SQUARE'S FUTURE</h2>
  
@@ -47,7 +85,7 @@
  
       <hr />
  
-      <div class="container-fluid">
+      <div class="container-fluid section" id="todo">
         <h1>5<small> THINGS</small></h1>
         <h2>THE CITY SHOULD DO</h2>
  
@@ -63,7 +101,7 @@
       
       <hr />
  
-      <div class="container-fluid">
+      <div class="container-fluid section" id="who">
         <h2>WHO IS UNION SQUARE?</h2>
       </div>
  
@@ -74,6 +112,8 @@
           <h4>Jeff Warren, 31</h4>
           <p><i>Designer, Non-profit co-founder</i></p>
           <p>Jeff lives and works in Greater Union Square, and co-founded a hackerspace next to Market Basket.</p>
+          <br />
+          <p><a href="#" class="btn-default btn-lg">Learn more</a></p>
         </div>
  
         <div class="item col-md-4">
@@ -81,6 +121,8 @@
           <h4>Jeff Warren, 31</h4>
           <p><i>Designer, Non-profit co-founder</i></p>
           <p>Jeff lives and works in Greater Union Square, and co-founded a hackerspace next to Market Basket.</p>
+          <br />
+          <p><a href="#" class="btn-default btn-lg">Learn more</a></p>
         </div>
  
         <div class="item col-md-4">
@@ -88,6 +130,8 @@
           <h4>Jeff Warren, 31</h4>
           <p><i>Designer, Non-profit co-founder</i></p>
           <p>Jeff lives and works in Greater Union Square, and co-founded a hackerspace next to Market Basket.</p>
+          <br />
+          <p><a href="#" class="btn-default btn-lg">Learn more</a></p>
         </div>
  
       </div>
@@ -95,6 +139,7 @@
     </div>
 
     <div class="center">
+      <br />
       <p><a>Meet more people from Union Square &raquo;</a></p>
     </div>
  

@@ -4,6 +4,17 @@
  */
 
 @font-face {
+    font-family: 'Raleway';
+    src: url('../bower_components/raleway/webfonts/raleway_thin-webfont.eot');
+    src: url('../bower_components/raleway/webfonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bower_components/raleway/webfonts/raleway_thin-webfont.woff') format('woff'),
+         url('../bower_components/raleway/webfonts/raleway_thin-webfont.ttf') format('truetype'),
+         url('../bower_components/raleway/webfonts/raleway_thin-webfont.svg#fanwood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Fanwood';
     src: url('../bower_components/fanwood/webfonts/fanwood-webfont.eot');
     src: url('../bower_components/fanwood/webfonts/fanwood-webfont.eot?#iefix') format('embedded-opentype'),
@@ -25,10 +36,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Fanwood Italic';
+    src: url('../bower_components/fanwood/webfonts/fanwood_italic-webfont.eot');
+    src: url('../bower_components/fanwood/webfonts/fanwood_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bower_components/fanwood/webfonts/fanwood_italic-webfont.woff') format('woff'),
+         url('../bower_components/fanwood/webfonts/fanwood_italic-webfont.ttf') format('truetype'),
+         url('../bower_components/fanwood/webfonts/fanwood_-italicwebfont.svg#fanwood') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  padding:80px 10%;
+  padding:100px 10%;
   color:#445;
   background:#f8f8f8;
+}
+
+nav {
+}
+
+#content {
   font-family:'Fanwood Text', serif;
 }
 
@@ -44,15 +72,19 @@ p {
 }
 
 h1, h2, h3, h4 {
-  font-family:'Fanwood', serif;
+  font-family:'Fanwood Italic', serif;
+}
+
+h1 {
+  font-size:10em;
 }
 
 #content h1, #content h2, #content h3, #content h4 {
   text-align:center;
 }
 
-h1 {
-  font-size:10em;
+div.section {
+  padding:50px 0 30px;
 }
 
 h1 small {
@@ -84,6 +116,10 @@ ol {
 
 ol li {
   padding:0.2em;
+}
+
+.btn-default {
+  background:#e8e8e8;
 }
 
 .hero img {

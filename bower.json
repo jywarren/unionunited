@@ -5,6 +5,7 @@
     "fontawesome":      "~4.3.0",
     "bootstrap":        "~3.2.0",
     "jquery":           "~1.11",
-    "fanwood":         "theleagueof/fanwood"
+    "fanwood":          "theleagueof/fanwood",
+    "raleway":          "theleagueof/raleway"
   }
 }
