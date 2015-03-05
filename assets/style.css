@@ -123,14 +123,14 @@ ol li {
 }
 
 .hero img {
-  margin:20px auto 50px;
+  margin:0 auto 40px;
 }
 
 .hero img.visible-xs {
-  width:90%;
+  width:100%;
 }
 .hero img.hidden-xs {
-  width:60%;
+  width:75%;
 }
 
 .carousel {
